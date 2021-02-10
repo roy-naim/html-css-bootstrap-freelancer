@@ -1,0 +1,25 @@
+header >.navbar {
+    background-color: #2C3E50; /* blue color navbar*/
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-brand a {
+  float: left;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 20px;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: 15px;
+}
