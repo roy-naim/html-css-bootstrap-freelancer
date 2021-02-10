@@ -1,3 +1,7 @@
+header {
+  background-color: #1abc9c !important;
+}
+
 header >.navbar {
     background-color: #2C3E50; /* blue color navbar*/
     border-color: #e7e7e7;
@@ -7,6 +11,7 @@ header >.navbar {
     color: #ffffff;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
+    margin: 10px 0;
 }
 
 .navbar-brand a {
@@ -22,4 +27,10 @@ header >.navbar {
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
     font-size: 15px;
+    margin: 10px 0;
+
+}
+
+img {
+  height: 150px;
 }
