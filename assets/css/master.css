@@ -68,6 +68,11 @@
   }
 }
 
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 #jumbotron {
   text-align: center;
   padding-top: 100px;
@@ -93,6 +98,9 @@
   margin: 30px 0;
 }
 
+.divider-about {
+  margin: 30px 0;
+}
 
 .divider i {
   font-size: 28px;
@@ -100,6 +108,11 @@
 }
 
 .divider-blue i {
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+.divider-about i {
   font-size: 28px;
   vertical-align: middle;
 }
@@ -115,6 +128,15 @@ h1 {
   height: 3px;
   width: 7%;
   margin: 0 25px;
+  background-color: white;
+}
+
+.pop-line-about {
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 14%;
+  margin: 0 10px;
   background-color: white;
 }
 
@@ -155,4 +177,15 @@ h2 {
 
 .text-white {
   color: #fff;
+}
+
+.about {
+  font-family: 'Lato', sans-serif;
+}
+
+.my-btn-default {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 8px 10px;
 }
