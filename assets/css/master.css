@@ -54,6 +54,12 @@
   #jumbotron h1 {
     font-size: 6rem;
   }
+
+  .page-section-heading {
+    font-size: 4.5rem;
+    line-height: 2.5rem;
+  }
+
 }
 
 @media all and (min-width: 1200px) {
@@ -68,7 +74,6 @@
   padding-bottom: 50px;
   background-color: #1ABC9C; /*lightgreen*/
   color: #fff;
-
 }
 
 #jumbotron img {
@@ -83,7 +88,18 @@
 .divider {
   padding-bottom: 30px;
 }
+
+.divider-blue {
+  margin: 30px 0;
+}
+
+
 .divider i {
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+.divider-blue i {
   font-size: 28px;
   vertical-align: middle;
 }
@@ -100,4 +116,43 @@ h1 {
   width: 7%;
   margin: 0 25px;
   background-color: white;
+}
+
+.pop-line-blue {
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 9%;
+  margin: 0 10px;
+  background-color: #2c3e50; /*blue dark*/
+}
+
+.page-section {
+  padding: 6rem 0;
+  text-align: center;
+  background-color: #fff;
+  color: #2c3e50; /*blue dark*/
+}
+
+h2 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.thumbnail {
+  border: 0;
+  margin-bottom: 40px;
+}
+
+.thumbnail img {
+  border: 0;
+  border-radius: 10px;
+}
+
+.bg-lightgreen {
+  background-color: #1ABC9C; /*lightgreen*/
+}
+
+.text-white {
+  color: #fff;
 }
